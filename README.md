@@ -336,7 +336,7 @@ Contributions are welcome! To contribute:
 
 For any questions about the project:
 - **Email**: imlouladam8@gmail.com
-- **GitHub**: [Your GitHub Profile]
+- **GitHub**: [adamfutur]
 
 ---
 
