@@ -1,121 +1,114 @@
-🍔 Menu Interactif pour Restaurant - Saveurs Royales
-  
+# 🍔 Menu Interactif pour Restaurant - Saveurs Royales
+
+![Flutter](https://img.shields.io/badge/Flutter-3.10+-blue?logo=flutter) ![Dart](https://img.shields.io/badge/Dart-3.0+-blue?logo=dart) ![License](https://img.shields.io/badge/License-MIT-green)
+
 A modern and intuitive Flutter mobile application for exploring a gourmet restaurant's menu, featuring a vibrant and sleek UI inspired by Burger King's design (bold colors, clean layout, and smooth interactions).
-📋 Table of Contents
 
-✨ Overview
-🚀 Features
-🎨 Design & Style
-🛠️ Tech Stack
-📁 Project Structure
-⚙️ Installation & Setup
-📸 Screenshots
-🎯 Technical Highlights
-🔧 Customization
-🐛 Troubleshooting
-🔮 Future Features
-📜 License
-🤝 Contribution
-📧 Contact
+## 📋 Table of Contents
 
-✨ Overview
-Saveurs Royales is a Flutter-based mobile app designed for a gourmet restaurant, offering a seamless and visually appealing way to explore the menu. With a responsive design, smooth animations, and a user-friendly interface, it provides an engaging experience for customers to browse dishes, manage favorites, and interact with the restaurant.
-🚀 Features
-📱 Navigation & Interface
+- [✨ Overview](#-overview)
+- [🚀 Features](#-features)
+- [🎨 Design & Style](#-design--style)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [⚙️ Installation & Setup](#-installation--setup)
+- [📸 Screenshots](#-screenshots)
+- [🎯 Technical Highlights](#-technical-highlights)
+- [🔧 Customization](#-customization)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [🔮 Future Features](#-future-features)
+- [📜 License](#-license)
+- [🤝 Contribution](#-contribution)
+- [📧 Contact](#-contact)
 
-Side Drawer: Easy navigation to all pages.
-Bottom Navigation Bar: Quick access to key sections.
-Responsive Design: Adapts to small and large screens.
-Dark/Light Mode: Automatic theme switching.
-Smooth Animations: Elegant transitions for a polished feel.
+## ✨ Overview
 
-🏠 Home Page
+**Saveurs Royales** is a Flutter-based mobile app designed for a gourmet restaurant, offering a seamless and visually appealing way to explore the menu. With a responsive design, smooth animations, and a user-friendly interface, it provides an engaging experience for customers to browse dishes, manage favorites, and interact with the restaurant.
 
-Restaurant overview with essential details.
-Displays address, phone number, and opening hours.
-Animated statistics (e.g., number of dishes, average rating, total customers).
-Special offers showcased in a carousel.
-Modern design with gradients and animations.
+## 🚀 Features
 
-🍽️ Interactive Menu
+### 📱 Navigation & Interface
+- **Side Drawer**: Easy navigation to all pages.
+- **Bottom Navigation Bar**: Quick access to key sections.
+- **Responsive Design**: Adapts to small and large screens.
+- **Dark/Light Mode**: Automatic theme switching.
+- **Smooth Animations**: Elegant transitions for a polished feel.
 
-TabBar for filtering by categories:
-Starters
-Main Courses
-Desserts
-Drinks
+### 🏠 Home Page
+- Restaurant overview with essential details.
+- Displays address, phone number, and opening hours.
+- Animated statistics (e.g., number of dishes, average rating, total customers).
+- Special offers showcased in a carousel.
+- Modern design with gradients and animations.
 
+### 🍽️ Interactive Menu
+- **TabBar** for filtering by categories:
+  - Starters
+  - Main Courses
+  - Desserts
+  - Drinks
+- **Dish Cards** with:
+  - High-quality images
+  - Name, description, and price
+  - Like/Dislike buttons with counters
+  - Comment system
+  - Popularity badge
+- **Search Bar**: Quick dish lookup.
+- **Detailed Modal**: Full interaction for each dish.
 
-Dish Cards with:
-High-quality images
-Name, description, and price
-Like/Dislike buttons with counters
-Comment system
-Popularity badge
+### ❤️ Favorites System
+- Add/remove favorite dishes.
+- Dedicated page with statistics (total price, categories, average price).
+- **Swipe-to-Delete**: Intuitive management.
+- Local data persistence.
 
+### 📞 Contact & About
+- Complete restaurant information.
+- **Contact Form**: Input validation included.
+- Detailed opening hours.
+- Social media links.
+- Integration with phone, email, and maps.
 
-Search Bar: Quick dish lookup.
-Detailed Modal: Full interaction for each dish.
+### 💾 Data Persistence
+- **Hive**: Fast local storage.
+- **SharedPreferences**: User settings storage.
+- Automatic saving of:
+  - Favorites
+  - Comments and ratings
+  - Theme preferences
+  - Interaction history
 
-❤️ Favorites System
+## 🎨 Design & Style
 
-Add/remove favorite dishes.
-Dedicated page with statistics (total price, categories, average price).
-Swipe-to-Delete: Intuitive management.
-Local data persistence.
+### Color Palette (Inspired by Burger King)
+- **Primary Red**: `#D62300`
+- **Yellow/Orange**: `#FFC72C`
+- **Bright Orange**: `#FF6B35`
+- **Dark Mode**: Dark grays with colorful accents
 
-📞 Contact & About
+### Design Elements
+- **Material 3**: Customized for a unique look.
+- **Rounded Corners**: High BorderRadius for a modern aesthetic.
+- **Soft Shadows**: Depth effect for visual hierarchy.
+- **Gradients**: Highlight key elements.
+- **Typography**: Google Fonts (Inter + Playfair Display).
+- **Expressive Icons**: Consistent and visually appealing.
 
-Complete restaurant information.
-Contact Form: Input validation included.
-Detailed opening hours.
-Social media links.
-Integration with phone, email, and maps.
+### Animations
+- **Staggered Animations**: For lists and cards.
+- **Hero Animations**: Smooth page transitions.
+- **Fade/Slide Transitions**: Between pages.
+- **Micro-Interactions**: On buttons and interactive elements.
+- **Loading States**: With progress indicators.
 
-💾 Data Persistence
+## 🛠️ Tech Stack
 
-Hive: Fast local storage.
-SharedPreferences: User settings storage.
-Automatic saving of:
-Favorites
-Comments and ratings
-Theme preferences
-Interaction history
+### Framework & Tools
+- **Flutter 3.10+**: Cross-platform UI framework.
+- **Dart 3.0+**: Programming language.
 
-
-
-🎨 Design & Style
-Color Palette (Inspired by Burger King)
-
-Primary Red: #D62300
-Yellow/Orange: #FFC72C
-Bright Orange: #FF6B35
-Dark Mode: Dark grays with colorful accents
-
-Design Elements
-
-Material 3: Customized for a unique look.
-Rounded Corners: High BorderRadius for a modern aesthetic.
-Soft Shadows: Depth effect for visual hierarchy.
-Gradients: Highlight key elements.
-Typography: Google Fonts (Inter + Playfair Display).
-Expressive Icons: Consistent and visually appealing.
-
-Animations
-
-Staggered Animations: For lists and cards.
-Hero Animations: Smooth page transitions.
-Fade/Slide Transitions: Between pages.
-Micro-Interactions: On buttons and interactive elements.
-Loading States: With progress indicators.
-
-🛠️ Tech Stack
-Framework & Tools
-
-Flutter 3.10+: Cross-platform UI framework.
-Dart 3.0+: Programming language.
-
-Main Packages
+### Main Packages
+```yaml
 dependencies:
   flutter:
     sdk: flutter
@@ -139,8 +132,11 @@ dev_dependencies:
   flutter_lints: ^3.0.0         # Dart/Flutter linting
   hive_generator: ^2.0.1        # Hive adapters generation
   build_runner: ^2.4.7          # Code generation
+```
 
-📁 Project Structure
+## 📁 Project Structure
+
+```
 lib/
 ├── main.dart                  # App entry point
 ├── data/
@@ -165,112 +161,113 @@ lib/
 │   └── animated_counter.dart  # Animated counter widget
 └── utils/
     └── app_colors.dart        # Color constants
+```
 
-⚙️ Installation & Setup
-Prerequisites
+## ⚙️ Installation & Setup
 
-Flutter SDK 3.10+
-Dart SDK 3.0+
-IDE: VS Code, Android Studio, or IntelliJ
-Simulator/Emulator or physical device
+### Prerequisites
+- **Flutter SDK 3.10+**
+- **Dart SDK 3.0+**
+- **IDE**: VS Code, Android Studio, or IntelliJ
+- **Simulator/Emulator** or physical device
 
-Installation Steps
+### Installation Steps
 
-Clone the Project
-
+1. **Clone the Project**
+```bash
 git clone [project-url]
 cd menu_interactif_restaurant
+```
 
-
-Install Dependencies
-
+2. **Install Dependencies**
+```bash
 flutter pub get
+```
 
-
-Generate Hive Adapters
-
+3. **Generate Hive Adapters**
+```bash
 flutter packages pub run build_runner build
+```
 
-
-Verify Flutter Setup
-
+4. **Verify Flutter Setup**
+```bash
 flutter doctor
+```
 
-Running the App
+### Running the App
 
-Start the Application
-
+1. **Start the Application**
+```bash
 flutter run
+```
 
-
-Build for Production
-
+2. **Build for Production**
+```bash
 # Android
 flutter build apk --release
 # iOS
 flutter build ios --release
+```
 
-📸 Screenshots
-Home Screen
+## 📸 Screenshots
 
-Animated logo with scaling effect.
-Restaurant info with elegant cards.
-Animated statistics counters.
-Special offers in a horizontal carousel.
+### Home Screen
+- Animated logo with scaling effect.
+- Restaurant info with elegant cards.
+- Animated statistics counters.
+- Special offers in a horizontal carousel.
 
-Interactive Menu
+### Interactive Menu
+- TabBar with icons for each category.
+- Dish cards with images and details.
+- Functional search bar.
+- Detailed modal with comments and ratings.
 
-TabBar with icons for each category.
-Dish cards with images and details.
-Functional search bar.
-Detailed modal with comments and ratings.
+### Favorites
+- Personalized list of favorite dishes.
+- Statistics (total price, average price).
+- Swipe-to-delete functionality.
+- Empty state with illustration.
 
-Favorites
+### Contact
+- Validated contact form.
+- Complete restaurant information.
+- Opening hours display.
+- Social media buttons.
 
-Personalized list of favorite dishes.
-Statistics (total price, average price).
-Swipe-to-delete functionality.
-Empty state with illustration.
+## 🎯 Technical Highlights
 
-Contact
+### Architecture
+- **Provider Pattern**: For state management.
+- **Separation of Concerns**: Models, Views, and Providers.
+- **Modular Code**: Reusable components.
 
-Validated contact form.
-Complete restaurant information.
-Opening hours display.
-Social media buttons.
+### Performance
+- **Lazy Loading**: Images with caching.
+- **Optimized Animations**: 60 FPS performance.
+- **Fast Local Storage**: Using Hive.
 
-🎯 Technical Highlights
-Architecture
+### User Experience
+- **Responsive Design**: Supports all screen sizes.
+- **Intuitive Interactions**: Clear user feedback.
+- **Smooth Navigation**: Seamless page transitions.
 
-Provider Pattern: For state management.
-Separation of Concerns: Models, Views, and Providers.
-Modular Code: Reusable components.
+### Accessibility
+- **Semantic Labels**: For screen readers.
+- **High Contrast**: For readability.
+- **Optimal Touch Targets**: For usability.
 
-Performance
+## 🔧 Customization
 
-Lazy Loading: Images with caching.
-Optimized Animations: 60 FPS performance.
-Fast Local Storage: Using Hive.
-
-User Experience
-
-Responsive Design: Supports all screen sizes.
-Intuitive Interactions: Clear user feedback.
-Smooth Navigation: Seamless page transitions.
-
-Accessibility
-
-Semantic Labels: For screen readers.
-High Contrast: For readability.
-Optimal Touch Targets: For usability.
-
-🔧 Customization
-Change Colors
-Edit lib/utils/app_colors.dart:
+### Change Colors
+Edit `lib/utils/app_colors.dart`:
+```dart
 static const Color primary = Color(0xFFYOUR_COLOR);
+```
 
-Add Dishes
-Update lib/data/sample_dishes.dart:
+### Add Dishes
+Update `lib/data/sample_dishes.dart`:
+```dart
 Dish(
   id: 'new_dish',
   name: 'Dish Name',
@@ -279,60 +276,68 @@ Dish(
   imageUrl: 'https://your-image.jpg',
   category: DishCategory.mains,
 ),
+```
 
-Modify Animations
+### Modify Animations
 Adjust durations in screen files:
+```dart
 duration: const Duration(milliseconds: 400),
+```
 
-🐛 Troubleshooting
-Common Issues
+## 🐛 Troubleshooting
 
-Hive Build Error
+### Common Issues
 
+1. **Hive Build Error**
+```bash
 flutter packages pub run build_runner clean
 flutter packages pub run build_runner build --delete-conflicting-outputs
+```
 
-
-Image Cache Issue
-
+2. **Image Cache Issue**
+```bash
 flutter clean
 flutter pub get
+```
 
-
-Dependency Errors
-
+3. **Dependency Errors**
+```bash
 flutter pub deps
 flutter pub upgrade
+```
 
-🔮 Future Features
+## 🔮 Future Features
 
- Reservation System: Integrated booking.
- Mobile Payments: Stripe integration.
- Push Notifications: For special offers.
- Offline Mode: Full functionality without internet.
- Social Sharing: Share dishes on social media.
- Loyalty System: Points-based rewards.
- Live Chat: Real-time customer support.
- Voice Search: Voice-activated dish search.
- Augmented Reality: Visualize dishes in AR.
- Multilingual Support: EN, ES, IT.
+- [ ] **Reservation System**: Integrated booking.
+- [ ] **Mobile Payments**: Stripe integration.
+- [ ] **Push Notifications**: For special offers.
+- [ ] **Offline Mode**: Full functionality without internet.
+- [ ] **Social Sharing**: Share dishes on social media.
+- [ ] **Loyalty System**: Points-based rewards.
+- [ ] **Live Chat**: Real-time customer support.
+- [ ] **Voice Search**: Voice-activated dish search.
+- [ ] **Augmented Reality**: Visualize dishes in AR.
+- [ ] **Multilingual Support**: EN, ES, IT.
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-🤝 Contribution
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## 🤝 Contribution
+
 Contributions are welcome! To contribute:
+1. **Fork** the project.
+2. Create a **feature branch**.
+3. **Commit** your changes.
+4. **Push** to the branch.
+5. Open a **Pull Request**.
 
-Fork the project.
-Create a feature branch.
-Commit your changes.
-Push to the branch.
-Open a Pull Request.
+## 📧 Contact
 
-📧 Contact
 For any questions about the project:
+- **Email**: imlouladam8@gmail.com
+- **GitHub**: [Your GitHub Profile]
 
-Email: imlouladam8@gmail.com
-GitHub: [Your GitHub Profile]
+---
 
-
-Developed with ❤️ and Flutter
+**Developed with ❤️ and Flutter**
