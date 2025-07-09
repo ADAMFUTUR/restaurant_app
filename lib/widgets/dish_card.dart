@@ -245,12 +245,12 @@ class DishCard extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
+                    const Icon(
                       Icons.image_not_supported_rounded,
                       size: 40,
                       color: Colors.grey[400],
                     ),
-                    const SizedBox(height: 8),
+                    SizedBox(height: 8),
                     Text(
                       'Image non disponible',
                       style: TextStyle(
@@ -315,14 +315,14 @@ class DishCard extends StatelessWidget {
                   topRight: Radius.circular(20),
                 ),
               ),
-              child: const Center(
+              child: Center(
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(20)),
                   ),
-                  child: Text(
+                  child: const Text(
                     'Non disponible',
                     style: TextStyle(
                       color: AppColors.error,

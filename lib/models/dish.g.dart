@@ -84,31 +84,31 @@ class DishCategoryAdapter extends TypeAdapter<DishCategory> {
   DishCategory read(BinaryReader reader) {
     switch (reader.readByte()) {
       case 0:
-        return DishCategory.entrees;
+        return DishCategory.protein;
       case 1:
-        return DishCategory.mains;
+        return DishCategory.carbs;
       case 2:
-        return DishCategory.desserts;
+        return DishCategory.healthy_fats;
       case 3:
-        return DishCategory.drinks;
+        return DishCategory.supplements;
       default:
-        return DishCategory.entrees;
+        return DishCategory.protein;
     }
   }
 
   @override
   void write(BinaryWriter writer, DishCategory obj) {
     switch (obj) {
-      case DishCategory.entrees:
+      case DishCategory.protein:
         writer.writeByte(0);
         break;
-      case DishCategory.mains:
+      case DishCategory.carbs:
         writer.writeByte(1);
         break;
-      case DishCategory.desserts:
+      case DishCategory.healthy_fats:
         writer.writeByte(2);
         break;
-      case DishCategory.drinks:
+      case DishCategory.supplements:
         writer.writeByte(3);
         break;
     }

@@ -78,10 +78,12 @@ class MyApp extends StatelessWidget {
         ),
       ),
       cardTheme: CardTheme(
-        elevation: 8,
-        shadowColor: Colors.black26,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
+        cardTheme: CardThemeData(
+          elevation: 8,
+          shadowColor: Colors.black26,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -126,11 +128,13 @@ class MyApp extends StatelessWidget {
         ),
       ),
       cardTheme: CardTheme(
-        elevation: 8,
-        color: AppColors.darkSurface,
-        shadowColor: Colors.black54,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
+        cardTheme: CardThemeData(
+          elevation: 8,
+          color: AppColors.darkSurface,
+          shadowColor: Colors.black54,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
