@@ -110,16 +110,16 @@ class Dish extends HiveObject {
 @HiveType(typeId: 1)
 enum DishCategory {
   @HiveField(0)
-  entrees('Entrées'),
+  protein('Protéines'),
 
   @HiveField(1)
-  mains('Plats principaux'),
+  carbs('Glucides'),
 
   @HiveField(2)
-  desserts('Desserts'),
+  healthy_fats('Lipides Sains'),
 
   @HiveField(3)
-  drinks('Boissons');
+  supplements('Compléments');
 
   const DishCategory(this.label);
   final String label;

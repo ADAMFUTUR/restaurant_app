@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // Couleurs principales inspirées de Burger King
-  static const Color primary = Color(0xFFD62300); // Rouge Burger King
-  static const Color secondary = Color(0xFFFFC72C); // Jaune/Orange
-  static const Color accent = Color(0xFFFF6B35); // Orange vif
+  // Couleurs principales inspirées du Maroc et du fitness
+  static const Color primary = Color(0xFFE74C3C); // Rouge marocain
+  static const Color secondary = Color(0xFFF39C12); // Orange/Or
+  static const Color accent = Color(0xFF27AE60); // Vert fitness
 
   // Couleurs de fond
   static const Color background = Color(0xFFFAFAFA);
