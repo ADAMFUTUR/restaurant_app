@@ -142,7 +142,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                         ),
                         const SizedBox(height: 16),
                         Text(
-                          'Saveurs Royales',
+                          'Gym Maroc',
                           style: GoogleFonts.playfairDisplay(
                             fontSize: 32,
                             fontWeight: FontWeight.bold,
@@ -153,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          'Restaurant Gastronomique',
+                          'Nutrition Sportive Marocaine',
                           style: GoogleFonts.inter(
                             fontSize: 16,
                             color: Colors.white.withOpacity(0.9),
@@ -211,10 +211,10 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           ),
           const SizedBox(height: 16),
           Text(
-            'Découvrez une expérience culinaire unique dans notre restaurant gastronomique. '
-            'Nos chefs passionnés vous proposent des plats raffinés préparés avec des ingrédients '
-            'frais et de qualité. Laissez-vous séduire par notre menu interactif et partagez '
-            'vos impressions avec notre communauté !',
+            'Découvrez une nutrition sportive authentiquement marocaine ! '
+            'Nos plats sont spécialement conçus pour les sportifs, alliant tradition culinaire '
+            'marocaine et besoins nutritionnels modernes. Protéines de qualité, glucides complexes '
+            'et lipides sains pour optimiser vos performances et votre récupération.',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
               height: 1.6,
               color: Colors.grey[700],
@@ -235,7 +235,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               context,
               icon: Icons.location_on_rounded,
               title: 'Adresse',
-              subtitle: '123 Rue de la Gastronomie\n75001 Paris',
+              subtitle: 'Avenue Mohammed V\nCasablanca, Maroc',
               color: AppColors.primary,
             ),
           ),
@@ -245,7 +245,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               context,
               icon: Icons.phone_rounded,
               title: 'Téléphone',
-              subtitle: '+33 1 23 45 67 89',
+              subtitle: '+212 5 22 XX XX XX',
               color: AppColors.accent,
             ),
           ),
@@ -318,9 +318,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         children: [
           _buildStatItem(
             context,
-            icon: Icons.restaurant_menu_rounded,
-            value: 150,
-            label: 'Plats au menu',
+            icon: Icons.fitness_center_rounded,
+            value: 25,
+            label: 'Plats fitness',
           ),
           _buildStatItem(
             context,
@@ -331,9 +331,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           ),
           _buildStatItem(
             context,
-            icon: Icons.people_rounded,
-            value: 10000,
-            label: 'Clients satisfaits',
+            icon: Icons.sports_gymnastics_rounded,
+            value: 2500,
+            label: 'Sportifs satisfaits',
             suffix: '+',
           ),
         ],
@@ -401,23 +401,23 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               children: [
                 _buildOfferCard(
                   context,
-                  title: 'Menu Découverte',
-                  subtitle: 'Entrée + Plat + Dessert',
-                  price: '35€',
+                  title: 'Pack Prise de Masse',
+                  subtitle: 'Protéines + Glucides + Lipides',
+                  price: '120 DH',
                   color: AppColors.primary,
                 ),
                 _buildOfferCard(
                   context,
-                  title: 'Happy Hour',
-                  subtitle: 'Cocktails à prix réduit',
-                  price: '8€',
+                  title: 'Menu Sèche',
+                  subtitle: 'Faible en calories, riche en protéines',
+                  price: '95 DH',
                   color: AppColors.accent,
                 ),
                 _buildOfferCard(
                   context,
-                  title: 'Weekend Brunch',
-                  subtitle: 'Buffet complet',
-                  price: '28€',
+                  title: 'Post-Entraînement',
+                  subtitle: 'Récupération optimale',
+                  price: '75 DH',
                   color: AppColors.secondary,
                 ),
               ],

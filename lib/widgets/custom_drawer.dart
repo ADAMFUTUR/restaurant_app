@@ -61,7 +61,7 @@ class CustomDrawer extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Saveurs Royales',
+                              'Gym Maroc',
                               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -69,7 +69,7 @@ class CustomDrawer extends StatelessWidget {
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'Restaurant gastronomique',
+                              'Nutrition sportive marocaine',
                               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                                 color: Colors.white.withOpacity(0.9),
                               ),
@@ -104,7 +104,7 @@ class CustomDrawer extends StatelessWidget {
                       _buildDrawerItem(
                         context,
                         icon: Icons.restaurant_menu_rounded,
-                        title: 'Menu',
+                        title: 'Nutrition',
                         index: 1,
                       ),
                       _buildDrawerItem(
@@ -305,15 +305,16 @@ class CustomDrawer extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Saveurs Royales - Menu Interactif'),
+            Text('Gym Maroc - Nutrition Sportive'),
             SizedBox(height: 8),
-            Text('Une application moderne pour découvrir nos délicieux plats.'),
+            Text('Une application moderne pour une nutrition sportive marocaine.'),
             SizedBox(height: 16),
             Text('Fonctionnalités:'),
-            Text('• Menu interactif par catégories'),
+            Text('• Nutrition par catégories (Protéines, Glucides, Lipides)'),
             Text('• Système de favoris'),
             Text('• Commentaires et évaluations'),
             Text('• Mode sombre/clair'),
+            Text('• Informations nutritionnelles détaillées'),
           ],
         ),
         actions: [

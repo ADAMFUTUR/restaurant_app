@@ -218,13 +218,13 @@ class _MenuScreenState extends State<MenuScreen>
 
   IconData _getCategoryIcon(DishCategory category) {
     switch (category) {
-      case DishCategory.entrees:
-        return Icons.restaurant_rounded;
-      case DishCategory.mains:
-        return Icons.dinner_dining_rounded;
-      case DishCategory.desserts:
-        return Icons.cake_rounded;
-      case DishCategory.drinks:
+      case DishCategory.protein:
+        return Icons.fitness_center_rounded;
+      case DishCategory.carbs:
+        return Icons.grain_rounded;
+      case DishCategory.healthy_fats:
+        return Icons.eco_rounded;
+      case DishCategory.supplements:
         return Icons.local_drink_rounded;
     }
   }
