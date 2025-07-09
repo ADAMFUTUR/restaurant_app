@@ -143,7 +143,7 @@ class _ContactScreenState extends State<ContactScreen>
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        'Nous sommes à votre écoute',
+                        'Votre coach nutrition vous écoute',
                         style: GoogleFonts.inter(
                           fontSize: 16,
                           color: Colors.white.withOpacity(0.9),
@@ -173,9 +173,9 @@ class _ContactScreenState extends State<ContactScreen>
                 child: _buildInfoCard(
                   icon: Icons.phone_rounded,
                   title: 'Téléphone',
-                  subtitle: '+33 1 23 45 67 89',
+                  subtitle: '+212 5 22 XX XX XX',
                   color: AppColors.primary,
-                  onTap: () => _launchPhone('+33123456789'),
+                  onTap: () => _launchPhone('+212522XXXXXX'),
                 ),
               ),
               const SizedBox(width: 12),
@@ -183,9 +183,9 @@ class _ContactScreenState extends State<ContactScreen>
                 child: _buildInfoCard(
                   icon: Icons.email_rounded,
                   title: 'Email',
-                  subtitle: 'contact@saveurs-royales.fr',
+                  subtitle: 'contact@gymmaroc.ma',
                   color: AppColors.accent,
-                  onTap: () => _launchEmail('contact@saveurs-royales.fr'),
+                  onTap: () => _launchEmail('contact@gymmaroc.ma'),
                 ),
               ),
             ],
@@ -194,7 +194,7 @@ class _ContactScreenState extends State<ContactScreen>
           _buildInfoCard(
             icon: Icons.location_on_rounded,
             title: 'Adresse',
-            subtitle: '123 Rue de la Gastronomie, 75001 Paris, France',
+            subtitle: 'Avenue Mohammed V, Casablanca, Maroc',
             color: AppColors.secondary,
             onTap: () => _launchMaps(),
           ),
@@ -326,7 +326,7 @@ class _ContactScreenState extends State<ContactScreen>
                 const SizedBox(width: 12),
                 Expanded(
                   child: Text(
-                    'Réservation recommandée le weekend',
+                    'Consultation nutritionnelle sur rendez-vous',
                     style: TextStyle(
                       color: AppColors.info,
                       fontWeight: FontWeight.w500,

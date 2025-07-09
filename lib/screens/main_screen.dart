@@ -31,7 +31,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
 
   final List<String> _titles = [
     'Accueil',
-    'Menu',
+    'Nutrition',
     'Favoris',
     'Contact',
   ];
@@ -156,7 +156,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
             BottomNavigationBarItem(
               icon: Icon(Icons.restaurant_menu_outlined),
               activeIcon: Icon(Icons.restaurant_menu_rounded),
-              label: 'Menu',
+              label: 'Nutrition',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.favorite_outline),
